@@ -1,0 +1,14 @@
+PODS:
+  - zmhpod (0.1.0)
+
+DEPENDENCIES:
+  - zmhpod (from `../`)
+
+EXTERNAL SOURCES:
+  zmhpod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  zmhpod: 92173a5621b5f3d77efc0827bd360b4f21a528af
+
+COCOAPODS: 0.39.0
