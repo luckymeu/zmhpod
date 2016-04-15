@@ -1,10 +1,3 @@
-#
-# Be sure to run `pod lib lint zmhpod.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "zmhpod"
@@ -37,4 +30,19 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+end
+
+Pod::Spec.new do |s|
+s.name             = "zmhpod"
+s.version          = "0.1.0"
+s.summary          = "A tiny generator of random data for swift"
+s.description      = "A tiny generator of fake/random data for swift"
+s.homepage         = "https://github.com/luckymeu/SwiftRandom"
+s.license          = 'MIT'
+s.author           = { "luckymeu" => "100566211@qq.com" }
+s.source           = { :git => "https://github.com/luckymeu/zmhpod.git", :tag => s.version.to_s }
+s.platform     = :ios, '8.0'
+s.requires_arc = true
+s.source_files = 'SetViewFrame.swiftt'
+
 end
